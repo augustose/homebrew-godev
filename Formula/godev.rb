@@ -1,8 +1,8 @@
 class Godev < Formula
   desc "Navigate 100+ development projects in seconds with fuzzy search"
   homepage "https://github.com/augustose/godev"
-  url "https://github.com/augustose/godev/archive/refs/tags/v2.8.0.tar.gz"
-  sha256 "f355a03d37b16bd9ec864e757f77687c43358d255dc3ead677ccc2201e78631d"
+  url "https://github.com/augustose/godev/archive/refs/tags/v2.8.1.tar.gz"
+  sha256 "02c39bc96fc0f19113ffc4c8a3fda8c8f0cb67a8b4008d0980ca3ca2420740dc"
   license "MIT"
   head "https://github.com/augustose/godev.git", branch: "main"
 
