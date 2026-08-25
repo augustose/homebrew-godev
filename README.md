@@ -29,6 +29,22 @@ To do it by hand instead, add this to your `~/.zshrc`:
 eval "$(godev --init zsh)"
 ```
 
+### Upgrading from a pre-2.7.0 script install
+
+If you installed godev with the `curl | zsh` installer before 2.7.0, your shell
+still has the old wrapper function, and it calls `~/.local/bin/godev` by absolute
+path. That binary has no `--init` flag and would read it as a project name, so
+reach the Homebrew binary directly, once:
+
+```zsh
+"$(brew --prefix)/bin/godev" --init --install
+rm ~/.local/bin/godev
+source ~/.zshrc
+```
+
+Your settings in `~/.config/godev/` are untouched — the Homebrew build reads the
+same path.
+
 ## Upgrade
 
 ```zsh
