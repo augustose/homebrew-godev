@@ -1,8 +1,8 @@
 class Godev < Formula
   desc "Navigate 100+ development projects in seconds with fuzzy search"
   homepage "https://github.com/augustose/godev"
-  url "https://github.com/augustose/godev/archive/refs/tags/v2.7.0.tar.gz"
-  sha256 "c739ecd7754bca87d0e15a0b4aed30b4095466067472720ec4460ecaae9546cd"
+  url "https://github.com/augustose/godev/archive/refs/tags/v2.7.1.tar.gz"
+  sha256 "222d1cac697969d0606dae9e7a7a6c7a660451d0668c1079f3632dcb873b80b7"
   license "MIT"
   head "https://github.com/augustose/godev.git", branch: "main"
 
@@ -23,7 +23,7 @@ class Godev < Formula
         godev --init --install && source ~/.zshrc
 
       Or add this line to ~/.zshrc yourself:
-        eval "$(godev --init zsh)"
+        eval "$(command godev --init zsh)"
 
       Homebrew-managed installs do not self-update: use `brew upgrade godev`.
     EOS

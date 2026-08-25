@@ -26,7 +26,7 @@ replacing anything. Cancelling leaves it untouched.
 To do it by hand instead, add this to your `~/.zshrc`:
 
 ```zsh
-eval "$(godev --init zsh)"
+eval "$(command godev --init zsh)"
 ```
 
 ### Upgrading from a pre-2.7.0 script install
