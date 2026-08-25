@@ -36,6 +36,6 @@ class Godev < Formula
     # The shell integration must emit a function that points at this binary.
     init = shell_output("#{bin}/godev --init zsh")
     assert_match "godev()", init
-    assert_match bin/"godev", init
+    assert_match "#{bin}/godev", init
   end
 end
