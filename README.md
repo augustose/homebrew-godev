@@ -1,5 +1,19 @@
 # homebrew-godev
 
+> [!WARNING]
+> **This tap is deprecated.** The godev formula moved to the consolidated tap
+> [augustose/homebrew-tap](https://github.com/augustose/homebrew-tap). This
+> repository is frozen at v2.8.1 and will receive no further updates.
+>
+> To migrate:
+>
+> ```zsh
+> brew uninstall godev && brew untap augustose/godev
+> brew trust augustose/tap && brew install augustose/tap/godev
+> ```
+>
+> Your settings in `~/.config/godev/` are untouched by the reinstall.
+
 Homebrew tap for [godev](https://github.com/augustose/godev) — navigate 100+
 development projects in seconds with fuzzy search and Git awareness.
 
